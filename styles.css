@@ -158,6 +158,8 @@ h4 {
     height: 242px;
     float: right;
     padding-right: 100px;
+    position: relative;
+    bottom: 57px;
 }
 
 .tablet {
@@ -428,8 +430,8 @@ footer {
         padding: 50px;
     }
 
-    .contact p {
-        width: 50%;
+    #os{
+        width: 55%;
     }
 
     .formGrande {
@@ -456,7 +458,9 @@ footer {
     footer {
         background-color: aqua;
     }
-
+    h2{
+        font-size: 39px;
+    }
     .images {
         display: flex;
         justify-content: center;
@@ -481,17 +485,20 @@ footer {
     #imagen {
         display: flex;
         align-items: flex-end;
-        width: 59%;
-        padding-right: 2px;
+        width: 56%;
     }
 
     .compu {
-        width: 279px;
+        width: 280px;
+        position: relative;
+        left: -9px;
+        top: -15px;
     }
 
     .tablet {
         margin-top: 168px;
-        width: 200px;
+        width: 312px;
+        height: 251px;
     }
 
     .dos {
@@ -511,16 +518,33 @@ footer {
     }
 
     #os {
-        width: 67%;
+        width: 102%;
+        font-size: 13px;
     }
 
     .formGrande {
         display: flex;
         align-items: flex-start;
+        position: relative;
+        top: 26px;
+        left: 35px;
+    
     }
-
+    span{
+        font-size: 48px;
+    }
+    .espacio {
+        padding-bottom: 25px;
+    }
     #btn5 {
         width: 220px;
+        position: relative;
+        left: 5px;
+    }
+    .Imagenes{
+        display: flex;
+    }.sect{
+        padding: 57px 14px;
     }
 
     .hijo2 {
@@ -532,17 +556,49 @@ footer {
     }
 
     #p2 {
-        width: 144%;
+        width: 203%;
         padding-bottom: 20px;
+        font-size: 12px;
     }
 
     h4 {
-        width: 115%;
+        width: 221%;
     }
-
+    h5{
+        width: 231%;
+        font-size: 30px;
+    }
+    #us{
+        width: 148%;
+        font-size: 34px;
+    }
     #hij {
         display: flex;
         justify-content: space-evenly;
-        width: 86%;
+        width: 82%;
+    }
+}
+@media screen and (max-width: 480px){
+    footer{
+        background-color: darkgray;
+    }
+    h1{
+        font-size: 41px;
+        padding-bottom: 45px;
+    }
+    h2{
+        padding-top: 57px;
+        padding-bottom: 20px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafo{
+        width: 160%;
+    }
+    .hijo2{
+        
     }
 }
