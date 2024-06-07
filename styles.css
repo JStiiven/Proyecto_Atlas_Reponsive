@@ -587,8 +587,9 @@ footer {
         padding-bottom: 45px;
     }
     h2{
-        padding-top: 57px;
-        padding-bottom: 20px;
+        font-size: 36px;
+        padding-top: 83px;
+        padding-bottom: 6px;
     }
     .contenedor{
         display: flex;
@@ -598,7 +599,87 @@ footer {
     .parrafo{
         width: 160%;
     }
+    .padre{
+        display: flex;
+        flex-direction: column;
+        height: 1685px;
+        position: relative;
+        top: 54px;
+
+    }
+    .hijo{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 42px;
+    }
     .hijo2{
-        
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor{
+        position: relative;
+        top: 49px;   
+    }
+    .compu{
+        position: relative;
+        left: 25px;
+        top: -393px;
+    }
+    .tablet{
+        position: relative;
+        left: 20px;
+        margin: 0;
+        top: 90px;
+    }
+    #aparte{
+        position: relative;
+        left: 45px;
+    }
+    #imagen{
+        padding: 0;
+    }
+    .centro{
+        position: relative;
+        top: 510px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 680px;
+    }
+    .formGrande{
+        position: relative;
+        top: -15px;
+        left: 23px;
+    }
+    #btn5{
+        position: relative;
+        left: 37px;
+        width: 194px;
+    }
+    .png {
+        height: 34px;
+    }
+    #us{
+        width: 100%;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .uno{
+        padding-bottom: 15px;
+    }
+
+    .tres{
+        padding-top: 15px;
+    }
+    .images{
+        width: 145%;
+    }
+    #btn4{
+        width: 118px;
     }
 }
